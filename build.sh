@@ -1,28 +1,35 @@
 #!/bin/bash
 #
-# build.sh
+# build.sh [instance]
 #
-# Build the package
+# Build the package.
 
 # Ensure a non zero exit value to break the build procedure.
 set -e
 
+instance=$1
+if [ -z "$instance" ] ; then
+	echo "No argument for instance. Build failed."
+	exit -1
+fi
+
+makefile=$instance.make
 revision=$(git rev-parse HEAD)
-target=target/intranet
+target=target/$instance
 expect=$target.tar.gz
 
-echo "Build revision $revision for intranet.make and will call it $expect"
+echo "Build $expect from $makefile, revision $revision"
 
-# Remove a possibly corrupt build.
+# Remove previous builds.
 if [ -d target ] ; then
 	rm -r target
 fi
 
-drush make --tar intranet.make ./$target
+drush make --tar $makefile ./$target
 if [ -f $expect ] ; then
-	echo "done."
+	echo "Done."
 	exit 0
 else
-	echo "Build failed."
+	echo "Build failed. No file found at $target."
 	exit -1
 fi
