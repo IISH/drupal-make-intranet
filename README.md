@@ -1,8 +1,11 @@
-intranet
-========
+Drupal 7 Intranet build
+========================
 
-IISH intranet is a Drupal installation.
+Purpose
+-------
 
-Build the package with Drush:
+Build a drupal website with the desired modules and themes using drush and a make file 'intranet.make'
 
-$ drush make intranet.make
+Usage
+-----
+$ sudo drush make --tar intranet.make intranet
