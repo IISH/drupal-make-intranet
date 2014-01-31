@@ -9,8 +9,7 @@ set -e
 
 instance=$1
 if [ -z "$instance" ] ; then
-	echo "No argument for instance. Build failed."
-	exit -1
+	instance="drupal7"
 fi
 
 makefile=$instance.make
