@@ -9,7 +9,7 @@ set -e
 
 instance=$1
 if [ -z "$instance" ] ; then
-	instance="drupal7"
+	instance="website-drupal7"
 fi
 
 makefile=$instance.make
