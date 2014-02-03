@@ -123,39 +123,45 @@ projects[wysiwyg][version] = "2.2"
 projects[omega][version] = "3.1"
 
 
-; Custom build iish_blocks.
+; Custom build iish_blocks. Taken from a local Bamboo build.
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
-projects[iish_blocks][download][type] = "get"
-projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][type] = "file"
+projects[iish_blocks][download][url] = "file:///./drupal-module-blocks/target/drupal-module-blocks.tar.gz"
+;projects[iish_blocks][download][type] = "get"
+;projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][download][tag] = "7.x-1.0"
+
+; Custom build iish_images. Taken from a local Bamboo build.
+projects[iish_images][version] = "1.0"
+projects[iish_images][type] = "module"
+projects[iish_images][download][type] = "file"
+projects[iish_images][download][url] = "file:///./drupal-module-images/target/drupal-module-images.git"
+;projects[iish_blocks][download][type] = "get"
+;projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-images.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][download][tag] = "7.x-1.0"
+
+; Custom build iish_language.  Taken from a local Bamboo build.
+projects[iish_language][version] = "1.0"
+projects[iish_language][type] = "module"
+projects[iish_language][download][type] = "file"
+projects[iish_language][download][url] = "file:///./drupal-module-language/target/drupal-module-language.git"
+;projects[iish_blocks][download][type] = "get"
+;projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-language.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][download][tag] = "7.x-1.0"
 
 
-; Custom build iish_images.
-projects[iish_images][version] = "1.0"
-projects[iish_images][type] = "module"
-projects[iish_images][download][type] = "get"
-projects[iish_images][download][url] = "https://github.com/IISH/drupal-module-images.git"
-projects[iish_images][download][branch] = "master"
-projects[iish_images][download][tag] = "7.x-1.0"
-
-
-; Custom build iish_language.
-projects[iish_language][version] = "1.0"
-projects[iish_language][type] = "module"
-projects[iish_language][download][type] = "get"
-projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-language.git"
-projects[iish_language][download][branch] = "master"
-projects[iish_language][download][tag] = "7.x-1.0"
-
-
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
+; and url is the url of the download.  Taken from a local Bamboo build.
 projects[iisg][version] = "1.0"
 projects[iisg][type] = "theme"
-projects[iisg][download][type] = "get"
-projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-iish.git"
-projects[iisg][download][branch] = "master"
-projects[iisg][download][tag] = "7.x-1.0"
+projects[iisg][download][type] = "file"
+projects[iisg][download][url] = "file:///./drupal-theme-iish/target/drupal-theme-iish.tar.gz"
+;projects[iish_blocks][download][type] = "get"
+;projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-theme-iisg.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][download][tag] = "7.x-1.0"
