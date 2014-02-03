@@ -33,7 +33,7 @@ fi
 
 mkdir -p target
 
-tar -zcvf $expect . --exclude=target
+tar --exclude=target --exclude=.git -zcvf $expect .
 if [ -f $expect ] ; then
 	echo "Done."
 	exit 0
