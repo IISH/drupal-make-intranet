@@ -9,7 +9,8 @@ set -e
 
 instance=$1
 if [ -z "$instance" ] ; then
-	instance="website-drupal7"
+	echo "Need a name of the project build."
+	exit -1
 fi
 
 makefile=$instance.make
