@@ -4,6 +4,27 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.23"
 
+; Libraries
+libraries[plupload][type] = "library"
+libraries[plupload][download][type] = "git"
+libraries[plupload][download][url] = "http://support1.socialhistoryservices.org:plupload.git"
+libraries[plupload][directory_name] = "plupload"
+
+libraries[ckeditor][type] = "library"
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "http://support1.socialhistoryservices.org:ckeditor.git"
+libraries[ckeditor][directory_name] = "ckeditor"
+
+libraries[jwplayer][type] = "library"
+libraries[jwplayer][download][type] = "git"
+libraries[jwplayer][download][url] = "http://support1.socialhistoryservices.org:jwplayer.git"
+libraries[jwplayer][directory_name] = "jwplayer"
+
+libraries[colorbox][type] = "library"
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "http://support1.socialhistoryservices.org:colorbox.git"
+libraries[colorbox][directory_name] = "colorbox"
+
 ; Modules
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.7"
