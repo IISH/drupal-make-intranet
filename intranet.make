@@ -14,19 +14,19 @@ libraries[plupload][directory_name] = "plupload"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "http://support1.socialhistoryservices.org:ckeditor.git"
-libraries[plupload][download][branch] = "master"
+libraries[ckeditor][download][branch] = "master"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[jwplayer][type] = "library"
 libraries[jwplayer][download][type] = "git"
 libraries[jwplayer][download][url] = "http://support1.socialhistoryservices.org:jwplayer.git"
-libraries[plupload][download][branch] = "master"
+libraries[jwplayer][download][branch] = "master"
 libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "http://support1.socialhistoryservices.org:colorbox.git"
-libraries[plupload][download][branch] = "master"
+libraries[colorbox][download][branch] = "master"
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Modules
