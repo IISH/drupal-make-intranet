@@ -132,6 +132,7 @@ projects[iish_blocks][download][url] = "drupal-module-blocks/target/drupal-modul
 ;projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][download][tag] = "7.x-1.0"
+projects[iish_blocks][subdir] = "custom"
 
 ; Custom build iish_images. Taken from a local Bamboo build.
 projects[iish_images][version] = "1.0"
@@ -142,6 +143,7 @@ projects[iish_images][download][url] = "drupal-module-images/target/drupal-modul
 ;projects[iish_images][download][url] = "https://github.com/IISH/drupal-module-images.git"
 projects[iish_images][download][branch] = "master"
 projects[iish_images][download][tag] = "7.x-1.0"
+projects[iish_images][subdir] = "custom"
 
 ; Custom build iish_language.  Taken from a local Bamboo build.
 projects[iish_language][version] = "1.0"
@@ -152,6 +154,7 @@ projects[iish_language][download][url] = "drupal-module-language/target/drupal-m
 ;projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-language.git"
 projects[iish_language][download][branch] = "master"
 projects[iish_language][download][tag] = "7.x-1.0"
+projects[iish_language][subdir] = "custom"
 
 
 ; Themes
