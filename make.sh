@@ -1,24 +1,21 @@
 #!/bin/bash
 #
-# build.sh [instance]
+# make.sh [instance]
 #
 # Build the package.
+#
+# Example ./make.sh intranet
 
 # Ensure a non zero exit value to break the build procedure.
 set -e
 
 instance=$1
-env=$2
 if [ -z "$instance" ] ; then
 	echo "Need a name of the project build."
 	exit -1
 fi
-if [ "$env" != "test" ] && [ "$env" != "production" ] ; then
-	echo "Need an environment: 'test' or 'production'"
-	exit -1
-fi
 
-makefile=$instance-$env.make
+makefile=$instance.make
 revision=$(git rev-parse HEAD)
 target=target/$instance
 expect=$target.tar.gz
