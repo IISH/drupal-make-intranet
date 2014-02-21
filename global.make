@@ -7,25 +7,25 @@ projects[drupal][version] = "7.23"
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = "library"
 libraries[plupload][download][type] = "git"
-libraries[plupload][download][url] = "git@support1.socialhistoryservices.org:plupload.git"
+libraries[plupload][download][url] = "git://support1.socialhistoryservices.org:plupload.git"
 libraries[plupload][download][branch] = "master"
 libraries[plupload][directory_name] = "plupload"
 
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git@support1.socialhistoryservices.org:ckeditor.git"
+libraries[ckeditor][download][url] = "git://support1.socialhistoryservices.org:ckeditor.git"
 libraries[ckeditor][download][branch] = "master"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[jwplayer][type] = "library"
 libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "git@support1.socialhistoryservices.org:jwplayer.git"
+libraries[jwplayer][download][url] = "git://support1.socialhistoryservices.org:jwplayer.git"
 libraries[jwplayer][download][branch] = "master"
 libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "git@support1.socialhistoryservices.org:colorbox.git"
+libraries[colorbox][download][url] = "git://support1.socialhistoryservices.org:colorbox.git"
 libraries[colorbox][download][branch] = "master"
 libraries[colorbox][directory_name] = "colorbox"
 
@@ -33,32 +33,32 @@ libraries[colorbox][directory_name] = "colorbox"
 projects[iisg][version] = "1.0"
 projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
-projects[iisg][download][url] = "git@github.com/IISH/drupal-theme-iisg.git"
-projects[iisg][download][branch] = "master"
+projects[iisg][download][url] = "git://github.com/IISH/drupal-theme-iisg.git"
+projects[iisg][download][branch] = "test"
 
 ; Custom modules
 ; Custom build iish_blocks.
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "git@github.com/IISH/drupal-module-blocks.git"
-projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][download][url] = "git://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][branch] = "test"
 projects[iish_blocks][subdir] = "custom"
 
 ; Custom build iish_images.
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
 projects[iish_images][download][type] = "git"
-projects[iish_images][download][url] = "git@github.com/IISH/drupal-module-images.git"
-projects[iish_images][download][branch] = "master"
+projects[iish_images][download][url] = "git://github.com/IISH/drupal-module-images.git"
+projects[iish_images][download][branch] = "test"
 projects[iish_images][subdir] = "custom"
 
 ; Custom build iish_language.
 projects[iish_language][version] = "1.0"
 projects[iish_language][type] = "module"
 projects[iish_language][download][type] = "git"
-projects[iish_language][download][url] = "git@github.com/IISH/drupal-module-language.git"
-projects[iish_language][download][branch] = "master"
+projects[iish_language][download][url] = "git://github.com/IISH/drupal-module-language.git"
+projects[iish_language][download][branch] = "test"
 projects[iish_language][subdir] = "custom"
 
 
