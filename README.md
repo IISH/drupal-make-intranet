@@ -8,6 +8,6 @@ Build a drupal website with the desired modules and themes using drush and a mak
 
 
 
-Usage
------
-$ sudo drush make --tar intranet.make intranet
+Sample usage
+------------
+$ sudo ./make.sh intranet
