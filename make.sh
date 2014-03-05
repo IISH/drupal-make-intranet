@@ -1,10 +1,8 @@
 #!/bin/bash
 #
-# make.sh [instance]
+# build.sh [instance] [version (default "1.0")]
 #
 # Build the package.
-#
-# Example ./make.sh intranet
 
 # Ensure a non zero exit value to break the build procedure.
 set -e
@@ -15,15 +13,16 @@ if [ -z "$instance" ] ; then
 	exit -1
 fi
 
+version=$2
+if [ -z "$version" ] ; then
+	echo "Default version 1.0"
+	version="1.0"
+fi
+
 makefile=$instance.make
 revision=$(git rev-parse HEAD)
-target=target/$instance
+target=target/$instance-$version
 expect=$target.tar.gz
-
-if [ ! -f $makefile ] ; then
-    echo "Drush makefile ${makefile} not found."
-    exit -1
-fi
 
 echo "Build $expect from $makefile, revision $revision"
 
