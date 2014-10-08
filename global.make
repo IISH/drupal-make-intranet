@@ -5,25 +5,25 @@ api = 2
 projects[drupal][version] = "7.23"
 
 ; Third party libraries, stored in a local git repository.
-libraries[plupload][type] = "library"
+libraries[plupload][type] = "libraries"
 libraries[plupload][download][type] = "git"
 libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
 libraries[plupload][download][branch] = "master"
 libraries[plupload][directory_name] = "plupload"
 
-libraries[ckeditor][type] = "library"
+libraries[ckeditor][type] = "libraries"
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
 libraries[ckeditor][download][branch] = "master"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-libraries[jwplayer][type] = "library"
+libraries[jwplayer][type] = "libraries"
 libraries[jwplayer][download][type] = "git"
 libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
 libraries[jwplayer][download][branch] = "master"
 libraries[jwplayer][directory_name] = "jwplayer"
 
-libraries[colorbox][type] = "library"
+libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
 libraries[colorbox][download][branch] = "master"
