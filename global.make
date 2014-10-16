@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.23"
+projects[drupal][version] = "7.32"
 
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = "library"
