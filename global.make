@@ -67,19 +67,19 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.7"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.6"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
+projects[date][version] = "2.8"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.2"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.2"
+projects[entity][version] = "1.5"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.13"
@@ -88,7 +88,7 @@ projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta5"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.3"
+projects[media][version] = "1.4"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
@@ -97,7 +97,7 @@ projects[filefield_sources_plupload][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
 
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = "1.10"
+projects[i18n][version] = "1.11"
 
 projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
@@ -139,7 +139,7 @@ projects[plupload][subdir] = "contrib"
 projects[plupload][version] = "1.4"
 
 projects[print][subdir] = "contrib"
-projects[print][version] = "1.2"
+projects[print][version] = "2.0"
 
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = "1.7"
@@ -169,10 +169,10 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.19"
+projects[webform][version] = "3.21"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
