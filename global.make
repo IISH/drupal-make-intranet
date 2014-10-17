@@ -64,7 +64,7 @@ projects[iish_language][subdir] = "custom"
 
 ; Drupal Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.7"
+projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.4"
@@ -76,16 +76,16 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
 
 projects[email][subdir] = "contrib"
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.5"
 
 projects[extlink][subdir] = "contrib"
-projects[extlink][version] = "1.13"
+projects[extlink][version] = "1.18"
 
 projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta5"
+projects[field_collection][version] = "1.0-beta7"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
@@ -106,13 +106,13 @@ projects[jw_player][subdir] = "contrib"
 projects[jw_player][version] = "1.0-alpha1"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.0-beta3"
+projects[l10n_update][version] = "1.0"
 
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.2"
@@ -124,7 +124,7 @@ projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
 
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][version] = "2.3"
+projects[menu_block][version] = "2.4"
 
 projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
@@ -136,22 +136,22 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.4"
+projects[plupload][version] = "1.6"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "2.0"
 
 projects[r4032login][subdir] = "contrib"
-projects[r4032login][version] = "1.7"
+projects[r4032login][version] = "1.8"
 
 projects[realname][subdir] = "contrib"
-projects[realname][version] = "1.1"
+projects[realname][version] = "1.2"
 
 projects[shoutbox][subdir] = "contrib"
-projects[shoutbox][version] = "1.0-alpha2"
+projects[shoutbox][version] = "1.0-alpha5"
 
 projects[site_map][subdir] = "contrib"
-projects[site_map][version] = "1.0"
+projects[site_map][version] = "1.2"
 
 projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
@@ -163,10 +163,10 @@ projects[translation_helpers][subdir] = "contrib"
 projects[translation_helpers][version] = "1.0"
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.1"
+projects[transliteration][version] = "3.2"
 
 projects[variable][subdir] = "contrib"
-projects[variable][version] = "2.3"
+projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.8"
