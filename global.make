@@ -70,7 +70,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "1.6"
+projects[colorbox][version] = "2.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
