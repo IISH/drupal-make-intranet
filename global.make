@@ -44,13 +44,6 @@ projects[media_colorbox][download][branch] = "master"
 projects[media_colorbox][subdir] = "contrib"
 
 ; Custom build iish_blocks.
-projects[iish_blocks][version] = "1.0"
-projects[iish_blocks][type] = "module"
-projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "git://github.com/IISH/drupal-module-blocks.git"
-projects[iish_blocks][download][branch] = "master"
-projects[iish_blocks][subdir] = "custom"
-
 ; Custom build iish_images.
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
