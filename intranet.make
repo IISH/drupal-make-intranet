@@ -38,8 +38,9 @@ projects[iisg][download][branch] = "master"
 
 ; Custom modules
 projects[media_colorbox][type] = "module"
+projects[media_colorbox][version] = "1.0"
 projects[media_colorbox][download][type] = "git"
-projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:media_colorbox.git"
+projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
 projects[media_colorbox][download][branch] = "master"
 projects[media_colorbox][subdir] = "contrib"
 
