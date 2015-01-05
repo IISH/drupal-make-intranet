@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.34"
 
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = libraries
@@ -66,7 +66,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.8"
@@ -84,7 +84,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 
 projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta7"
+projects[field_collection][version] = "1.0-beta8"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
@@ -105,7 +105,7 @@ projects[jw_player][subdir] = "contrib"
 projects[jw_player][version] = "1.0-alpha1"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.0"
+projects[l10n_update][version] = "1.1"
 
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
@@ -114,7 +114,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 
 projects[link][subdir] = "contrib"
-projects[link][version] = "1.2"
+projects[link][version] = "1.3"
 
 projects[mail_edit][subdir] = "contrib"
 projects[mail_edit][version] = "1.0"
@@ -135,7 +135,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.6"
+projects[plupload][version] = "1.7"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "2.0"
