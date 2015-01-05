@@ -171,7 +171,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.8"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.1"
+projects[webform][version] = "4.2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
