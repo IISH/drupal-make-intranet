@@ -38,8 +38,8 @@ projects[iisg][download][branch] = "master"
 
 ; Custom modules
 projects[media_colorbox][type] = "module"
-projects[media_colorbox][download][type] = "http"
-projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
+projects[media_colorbox][download][type] = "git"
+projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:media_colorbox.git"
 projects[media_colorbox][download][branch] = "master"
 projects[media_colorbox][subdir] = "contrib"
 
