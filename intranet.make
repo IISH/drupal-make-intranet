@@ -196,6 +196,9 @@ projects[webform][version] = "4.2"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha2"
+
 ; Drupal Themes
 projects[omega][version] = "3.1"
 
