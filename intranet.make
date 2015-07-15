@@ -4,6 +4,25 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.34"
 
+
+
+; Custom agenda module.
+projects[iishagenda][version] = "1.0"
+projects[iishagenda][type] = "module"
+projects[iishagenda][download][type] = "git"
+projects[iishagenda][download][url] = "git://github.com/IISH/drupal-module-activiteitenagenda.git"
+projects[iishagenda][download][branch] = "master"
+projects[iishagenda][subdir] = "custom"
+
+
+; Get Color Picker Library for the agenda module
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[colorpicker][directory_name] = "colorpicker"
+libraries[colorpicker][destination] = "libraries"
+
+
+
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = libraries
 libraries[plupload][download][type] = "git"
@@ -176,6 +195,9 @@ projects[webform][version] = "4.2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha2"
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
