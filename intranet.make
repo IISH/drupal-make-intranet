@@ -2,7 +2,26 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.34"
+
+
+
+; Custom agenda module.
+projects[iishagenda][version] = "1.0"
+projects[iishagenda][type] = "module"
+projects[iishagenda][download][type] = "git"
+projects[iishagenda][download][url] = "git://github.com/IISH/drupal-module-activiteitenagenda.git"
+projects[iishagenda][download][branch] = "master"
+projects[iishagenda][subdir] = "custom"
+
+
+; Get Color Picker Library for the agenda module
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[colorpicker][directory_name] = "colorpicker"
+libraries[colorpicker][destination] = "libraries"
+
+
 
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = libraries
@@ -38,8 +57,9 @@ projects[iisg][download][branch] = "master"
 
 ; Custom modules
 projects[media_colorbox][type] = "module"
-projects[media_colorbox][download][type] = "http"
-projects[media_colorbox][download][url] = "http://git.drupal.org/project/media_colorbox.git"
+projects[media_colorbox][version] = "1.0"
+projects[media_colorbox][download][type] = "git"
+projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
 projects[media_colorbox][download][branch] = "master"
 projects[media_colorbox][subdir] = "contrib"
 
@@ -66,7 +86,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.8"
@@ -84,7 +104,7 @@ projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 
 projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta7"
+projects[field_collection][version] = "1.0-beta8"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
@@ -105,7 +125,7 @@ projects[jw_player][subdir] = "contrib"
 projects[jw_player][version] = "1.0-alpha1"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.0"
+projects[l10n_update][version] = "1.1"
 
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
@@ -114,7 +134,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 
 projects[link][subdir] = "contrib"
-projects[link][version] = "1.2"
+projects[link][version] = "1.3"
 
 projects[mail_edit][subdir] = "contrib"
 projects[mail_edit][version] = "1.0"
@@ -135,7 +155,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.6"
+projects[plupload][version] = "1.7"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "2.0"
@@ -171,10 +191,13 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.8"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.1"
+projects[webform][version] = "4.2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha2"
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
