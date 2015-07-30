@@ -82,7 +82,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.7"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.8"
@@ -94,7 +94,7 @@ projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
@@ -184,10 +184,10 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.8"
+projects[views][version] = "3.11"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.2"
+projects[webform][version] = "4.10"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
