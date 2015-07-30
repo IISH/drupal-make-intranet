@@ -2,8 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.34"
-
+projects[drupal][version] = "7.38"
 
 
 ; Custom agenda module.
@@ -14,14 +13,11 @@ projects[iishagenda][download][url] = "git://github.com/IISH/drupal-module-activ
 projects[iishagenda][download][branch] = "master"
 projects[iishagenda][subdir] = "custom"
 
-
 ; Get Color Picker Library for the agenda module
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
-
-
 
 ; Third party libraries, stored in a local git repository.
 libraries[plupload][type] = libraries
