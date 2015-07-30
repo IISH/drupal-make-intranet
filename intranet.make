@@ -11,7 +11,7 @@ projects[iishagenda][version] = "1.0"
 projects[iishagenda][type] = "module"
 projects[iishagenda][download][type] = "git"
 projects[iishagenda][download][url] = "git://github.com/IISH/drupal-module-activiteitenagenda.git"
-projects[iishagenda][download][branch] = "test"
+projects[iishagenda][download][branch] = "master"
 projects[iishagenda][subdir] = "custom"
 
 
@@ -199,6 +199,44 @@ projects[wysiwyg][version] = "2.2"
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "3.0-alpha2"
 
+projects[better_exposed_filters][subdir] = "contrib"
+projects[better_exposed_filters][version] = "3.2"
+
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "3.5"
+
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.6"
+
+projects[date_datepicker_inline][subdir] = "contrib"
+projects[date_datepicker_inline][version] = "1.0"
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.1"
+
+projects[features][subdir] = "contrib"
+projects[features][version] = "2.6"
+
+projects[field_collection_table][subdir] = "contrib"
+projects[field_collection_table][version] = "1.0-beta2"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.4"
+
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
+
+projects[inline_entity_form][subdir] = "contrib"
+projects[inline_entity_form][version] = "1.6"
+
+projects[jquery_colorpicker][subdir] = "contrib"
+projects[jquery_colorpicker][version] = "1.1"
+
+projects[references][subdir] = "contrib"
+projects[references][version] = "2.1"
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.3"
+
 ; Drupal Themes
 projects[omega][version] = "3.1"
-
