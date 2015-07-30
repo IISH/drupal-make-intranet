@@ -85,7 +85,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.7"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.9"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
@@ -112,7 +112,7 @@ projects[filefield_sources_plupload][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
 
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = "1.11"
+projects[i18n][version] = "1.13"
 
 projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
@@ -133,13 +133,16 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.3"
 
 projects[mail_edit][subdir] = "contrib"
-projects[mail_edit][version] = "1.0"
+projects[mail_edit][version] = "1.1"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.5"
 
 projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
 
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][version] = "2.4"
+projects[menu_block][version] = "2.7"
 
 projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
@@ -163,7 +166,7 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
 projects[shoutbox][subdir] = "contrib"
-projects[shoutbox][version] = "1.0-alpha5"
+projects[shoutbox][version] = "1.0-beta1"
 
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.2"
@@ -172,7 +175,7 @@ projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 
 projects[translation_helpers][subdir] = "contrib"
 projects[translation_helpers][version] = "1.0"
