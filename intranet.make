@@ -4,7 +4,6 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.38"
 
-
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
 projects[iishagenda][type] = "module"
@@ -76,16 +75,15 @@ projects[iish_language][download][url] = "git://github.com/IISH/drupal-module-la
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
-
 ; Drupal Modules
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.7"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.9"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
@@ -94,7 +92,7 @@ projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
@@ -103,7 +101,7 @@ projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.4"
+projects[media][version] = "1.5"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
@@ -112,7 +110,7 @@ projects[filefield_sources_plupload][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
 
 projects[i18n][subdir] = "contrib"
-projects[i18n][version] = "1.11"
+projects[i18n][version] = "1.13"
 
 projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
@@ -133,13 +131,13 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.3"
 
 projects[mail_edit][subdir] = "contrib"
-projects[mail_edit][version] = "1.0"
+projects[mail_edit][version] = "1.1"
 
 projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
 
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][version] = "2.4"
+projects[menu_block][version] = "2.7"
 
 projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
@@ -163,7 +161,7 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
 projects[shoutbox][subdir] = "contrib"
-projects[shoutbox][version] = "1.0-alpha5"
+projects[shoutbox][version] = "1.0-beta1"
 
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.2"
@@ -172,7 +170,7 @@ projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 
 projects[translation_helpers][subdir] = "contrib"
 projects[translation_helpers][version] = "1.0"
@@ -184,14 +182,55 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.8"
+projects[views][version] = "3.11"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.2"
+projects[webform][version] = "4.10"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha2"
+
+projects[better_exposed_filters][subdir] = "contrib"
+projects[better_exposed_filters][version] = "3.2"
+
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "3.5"
+
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.6"
+
+projects[date_datepicker_inline][subdir] = "contrib"
+projects[date_datepicker_inline][version] = "1.0"
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.1"
+
+projects[features][subdir] = "contrib"
+projects[features][version] = "2.6"
+
+projects[field_collection_table][subdir] = "contrib"
+projects[field_collection_table][version] = "1.0-beta2"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.4"
+
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
+
+projects[inline_entity_form][subdir] = "contrib"
+projects[inline_entity_form][version] = "1.6"
+
+projects[jquery_colorpicker][subdir] = "contrib"
+projects[jquery_colorpicker][version] = "1.1"
+
+projects[references][subdir] = "contrib"
+projects[references][version] = "2.1"
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.3"
+
 ; Drupal Themes
 projects[omega][version] = "3.1"
-
