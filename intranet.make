@@ -229,6 +229,9 @@ projects[jquery_colorpicker][version] = "1.1"
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
 
+projects[replicate][subdir] = "contrib"
+projects[replicate][version] = "1.1"
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
 
