@@ -164,7 +164,7 @@ projects[shoutbox][subdir] = "contrib"
 projects[shoutbox][version] = "1.0-beta1"
 
 projects[site_map][subdir] = "contrib"
-projects[site_map][version] = "1.2"
+projects[site_map][version] = "1.3"
 
 projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
