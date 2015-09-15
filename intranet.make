@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.38"
+projects[drupal][version] = "7.39"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -80,13 +80,13 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.9"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
@@ -104,7 +104,7 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
 projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.9"
+projects[filefield_sources][version] = "1.10"
 
 projects[filefield_sources_plupload][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
@@ -164,7 +164,7 @@ projects[shoutbox][subdir] = "contrib"
 projects[shoutbox][version] = "1.0-beta1"
 
 projects[site_map][subdir] = "contrib"
-projects[site_map][version] = "1.2"
+projects[site_map][version] = "1.3"
 
 projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
@@ -224,10 +224,13 @@ projects[inline_entity_form][subdir] = "contrib"
 projects[inline_entity_form][version] = "1.6"
 
 projects[jquery_colorpicker][subdir] = "contrib"
-projects[jquery_colorpicker][version] = "1.1"
+projects[jquery_colorpicker][version] = "1.2"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
+
+projects[replicate][subdir] = "contrib"
+projects[replicate][version] = "1.1"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
