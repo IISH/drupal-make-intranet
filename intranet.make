@@ -86,7 +86,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.9"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
@@ -224,7 +224,7 @@ projects[inline_entity_form][subdir] = "contrib"
 projects[inline_entity_form][version] = "1.6"
 
 projects[jquery_colorpicker][subdir] = "contrib"
-projects[jquery_colorpicker][version] = "1.1"
+projects[jquery_colorpicker][version] = "1.2"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
