@@ -79,11 +79,11 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
-
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
+
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.9"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
