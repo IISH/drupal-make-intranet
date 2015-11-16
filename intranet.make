@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.39"
+projects[drupal][version] = "7.41"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -79,14 +79,15 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
+projects[colorbox][subdir] = "contrib"
+projects[colorbox][version] = "2.10"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 
-projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "2.9"
-
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
+projects[date][patch][] = "https://www.drupal.org/files/issues/calendar_pager_broken-2375235-35.patch"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
@@ -146,7 +147,7 @@ projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.5"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 
 projects[plupload][subdir] = "contrib"
 projects[plupload][version] = "1.7"
@@ -182,16 +183,16 @@ projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.10"
+projects[webform][version] = "4.12"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "3.0-alpha2"
+projects[jquery_update][version] = "3.0-alpha3"
 
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.2"
@@ -209,10 +210,10 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.6"
+projects[features][version] = "2.7"
 
 projects[field_collection_table][subdir] = "contrib"
-projects[field_collection_table][version] = "1.0-beta2"
+projects[field_collection_table][version] = "1.0-beta3"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.4"
