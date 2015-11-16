@@ -87,6 +87,7 @@ projects[ctools][version] = "1.9"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
+projects[date][patch][] = "https://www.drupal.org/files/issues/calendar_pager_broken-2375235-35.patch"
 
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
