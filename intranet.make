@@ -89,6 +89,9 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
 projects[date][patch][] = "https://www.drupal.org/files/issues/calendar_pager_broken-2375235-35.patch"
 
+projects[diff][subdir] = "contrib"
+projects[diff][version] = "3.2"
+
 projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
