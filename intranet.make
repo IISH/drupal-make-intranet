@@ -123,7 +123,7 @@ projects[jw_player][subdir] = "contrib"
 projects[jw_player][version] = "1.0-alpha1"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.1"
+projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
