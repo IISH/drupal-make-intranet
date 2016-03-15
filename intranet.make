@@ -219,7 +219,7 @@ projects[field_collection_table][subdir] = "contrib"
 projects[field_collection_table][version] = "1.0-beta3"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
