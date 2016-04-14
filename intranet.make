@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.41"
+projects[drupal][version] = "7.43"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -19,28 +19,32 @@ libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
 ; Third party libraries, stored in a local git repository.
-libraries[plupload][type] = libraries
-libraries[plupload][download][type] = "git"
-libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
-libraries[plupload][download][branch] = "master"
-libraries[plupload][directory_name] = "plupload"
+;libraries[plupload][type] = libraries
+;libraries[plupload][download][type] = "git"
+;libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
+;libraries[plupload][download][branch] = "master"
+;libraries[plupload][directory_name] = "plupload"
 
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
-libraries[ckeditor][download][branch] = "master"
+;libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
+;libraries[ckeditor][download][branch] = "master"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-libraries[jwplayer][type] = libraries
-libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-libraries[jwplayer][download][branch] = "master"
-libraries[jwplayer][directory_name] = "jwplayer"
+;libraries[jwplayer][type] = libraries
+;libraries[jwplayer][download][type] = "git"
+;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
+;libraries[jwplayer][download][branch] = "master"
+;libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
-libraries[colorbox][download][branch] = "master"
+;libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
+;libraries[colorbox][download][branch] = "master"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Custom themes
@@ -120,10 +124,10 @@ projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 
 projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "1.0-alpha1"
+projects[jw_player][version] = "2.0-beta2"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.1"
+projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
 projects[ldap][version] = "2.0-beta8"
@@ -219,7 +223,7 @@ projects[field_collection_table][subdir] = "contrib"
 projects[field_collection_table][version] = "1.0-beta3"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][version] = "1.0-beta2"
