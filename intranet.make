@@ -100,7 +100,7 @@ projects[email][subdir] = "contrib"
 projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
@@ -217,7 +217,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.7"
+projects[features][version] = "2.9"
 
 projects[field_collection_table][subdir] = "contrib"
 projects[field_collection_table][version] = "1.0-beta3"
