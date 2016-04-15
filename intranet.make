@@ -217,7 +217,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.7"
+projects[features][version] = "2.9"
 
 projects[field_collection_table][subdir] = "contrib"
 projects[field_collection_table][version] = "1.0-beta3"
