@@ -109,6 +109,9 @@ projects[extlink][version] = "1.18"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
+projects[filedepot][subdir] = "contrib"
+projects[filedepot][version] = "1.x-dev"
+
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
