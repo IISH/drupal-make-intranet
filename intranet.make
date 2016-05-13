@@ -18,6 +18,18 @@ libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorp
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
+; get html_encoder library
+libraries[html_encoder][type] = libraries
+libraries[html_encoder][download][type] = "get"
+libraries[html_encoder][download][url] = "http://www.strictly-software.com/scripts/downloads/encoder.js"
+libraries[html_encoder][directory_name] = "html_encoder"
+
+; get jquery.blockui.js library
+libraries[jquery.blockui][type] = libraries
+libraries[jquery.blockui][download][type] = "get"
+libraries[jquery.blockui][download][url] = "http://malsup.github.io/jquery.blockUI.js"
+libraries[jquery.blockui][directory_name] = "jquery.blockui"
+
 ; Third party libraries, stored in a local git repository.
 ;libraries[plupload][type] = libraries
 ;libraries[plupload][download][type] = "git"
