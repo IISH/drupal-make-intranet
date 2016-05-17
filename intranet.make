@@ -18,16 +18,18 @@ libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorp
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
-; get html_encoder library
+; get html_encoder library (used by filedepot)
 libraries[html_encoder][type] = libraries
-libraries[html_encoder][download][type] = "get"
-libraries[html_encoder][download][url] = "http://www.strictly-software.com/scripts/downloads/encoder.js"
+libraries[html_encoder][download][type] = "git"
+libraries[html_encoder][download][url] = "git@github.com:IISH/drupal-library-htmlencoder.git"
+libraries[html_encoder][download][branch] = "master"
 libraries[html_encoder][directory_name] = "html_encoder"
 
-; get jquery.blockui.js library
+; get jquery.blockui.js library (used by filedepot)
 libraries[jquery.blockui][type] = libraries
-libraries[jquery.blockui][download][type] = "get"
-libraries[jquery.blockui][download][url] = "http://malsup.github.io/jquery.blockUI.js"
+libraries[jquery.blockui][download][type] = "git"
+libraries[jquery.blockui][download][url] = "git@github.com:IISH/drupal-library-jqueryblockui.git"
+libraries[jquery.blockui][download][branch] = "master"
 libraries[jquery.blockui][directory_name] = "jquery.blockui"
 
 ; Third party libraries, stored in a local git repository.
@@ -121,6 +123,7 @@ projects[extlink][version] = "1.18"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
+; TODO GCU OUDE VERSIE PROBEREN
 projects[filedepot][subdir] = "contrib"
 projects[filedepot][version] = "1.x-dev"
 
