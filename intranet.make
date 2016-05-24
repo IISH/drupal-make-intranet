@@ -47,11 +47,11 @@ libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-relea
 libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-;libraries[jwplayer][type] = libraries
-;libraries[jwplayer][download][type] = "git"
-;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-;libraries[jwplayer][download][branch] = "master"
-;libraries[jwplayer][directory_name] = "jwplayer"
+libraries[jwplayer][type] = libraries
+libraries[jwplayer][download][type] = "git"
+libraries[jwplayer][download][url] = "git@github.com:IISH/drupal-library-jwplayer.git"
+libraries[jwplayer][download][branch] = "master"
+libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
