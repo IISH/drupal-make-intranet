@@ -123,9 +123,12 @@ projects[extlink][version] = "1.18"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
-; TODO GCU OUDE VERSIE PROBEREN
-projects[filedepot][subdir] = "contrib"
-projects[filedepot][version] = "1.x-dev"
+projects[filedepot][version] = "1.0"
+projects[filedepot][type] = "module"
+projects[filedepot][download][type] = "git"
+projects[filedepot][download][url] = "git@github.com:IISH/filedepot.git"
+projects[filedepot][download][branch] = "master"
+projects[filedepot][subdir] = "custom"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
