@@ -18,6 +18,20 @@ libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorp
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][destination] = "libraries"
 
+; get html_encoder library (used by filedepot)
+libraries[html_encoder][type] = libraries
+libraries[html_encoder][download][type] = "git"
+libraries[html_encoder][download][url] = "git@github.com:IISH/drupal-library-htmlencoder.git"
+libraries[html_encoder][download][branch] = "master"
+libraries[html_encoder][directory_name] = "html_encoder"
+
+; get jquery.blockui.js library (used by filedepot)
+libraries[jquery.blockui][type] = libraries
+libraries[jquery.blockui][download][type] = "git"
+libraries[jquery.blockui][download][url] = "git@github.com:IISH/drupal-library-jqueryblockui.git"
+libraries[jquery.blockui][download][branch] = "master"
+libraries[jquery.blockui][directory_name] = "jquery.blockui"
+
 ; Third party libraries, stored in a local git repository.
 ;libraries[plupload][type] = libraries
 ;libraries[plupload][download][type] = "git"
@@ -33,11 +47,13 @@ libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-relea
 libraries[ckeditor][download][branch] = "full/4.5.x"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-;libraries[jwplayer][type] = libraries
-;libraries[jwplayer][download][type] = "git"
-;libraries[jwplayer][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:jwplayer.git"
-;libraries[jwplayer][download][branch] = "master"
-;libraries[jwplayer][directory_name] = "jwplayer"
+
+libraries[jwplayer][type] = libraries
+libraries[jwplayer][download][type] = "git"
+libraries[jwplayer][download][url] = "git@github.com:IISH/drupal-library-jwplayer.git"
+libraries[jwplayer][download][branch] = "master"
+libraries[jwplayer][directory_name] = "jwplayer"
+
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
@@ -109,6 +125,13 @@ projects[extlink][version] = "1.18"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
+projects[filedepot][version] = "1.0"
+projects[filedepot][type] = "module"
+projects[filedepot][download][type] = "git"
+projects[filedepot][download][url] = "git@github.com:IISH/filedepot.git"
+projects[filedepot][download][branch] = "master"
+projects[filedepot][subdir] = "custom"
+
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.5"
 
@@ -125,7 +148,7 @@ projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 
 projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "2.0-beta2"
+projects[jw_player][version] = "1.0-alpha1"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
