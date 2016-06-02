@@ -39,12 +39,14 @@ libraries[jquery.blockui][directory_name] = "jquery.blockui"
 ;libraries[plupload][download][branch] = "master"
 ;libraries[plupload][directory_name] = "plupload"
 
+;libraries[ckeditor][type] = libraries
+;libraries[ckeditor][download][type] = "git"
+;libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+;libraries[ckeditor][download][branch] = "full/4.5.x"
+;libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-;libraries[ckeditor][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:ckeditor.git"
-;libraries[ckeditor][download][branch] = "master"
-libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][branch] = "full/4.5.x"
+libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 
@@ -228,8 +230,10 @@ projects[views][version] = "3.13"
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.12"
 
+;projects[wysiwyg][subdir] = "contrib"
+;projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "3.0-alpha3"
