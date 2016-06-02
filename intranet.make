@@ -165,6 +165,12 @@ projects[link][version] = "1.3"
 projects[mail_edit][subdir] = "contrib"
 projects[mail_edit][version] = "1.1"
 
+projects[mail_debugger][subdir] = "contrib"
+projects[mail_debugger][version] = "3.1"
+
+projects[mail_logger][subdir] = "contrib"
+projects[mail_logger][version] = "1.x-dev"
+
 projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
 
@@ -194,6 +200,9 @@ projects[realname][version] = "1.2"
 
 projects[shoutbox][subdir] = "contrib"
 projects[shoutbox][version] = "1.0-beta1"
+
+projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "1.4"
 
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.3"
