@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.44"
+projects[drupal][version] = "7.50"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -156,7 +156,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta8"
+projects[ldap][version] = "2.0-beta11"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -230,8 +230,6 @@ projects[views][version] = "3.14"
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.12"
 
-;projects[wysiwyg][subdir] = "contrib"
-;projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 
