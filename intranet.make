@@ -60,14 +60,21 @@ projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-iisg.git"
 projects[iisg][download][branch] = "master"
 
 ; Custom modules
-projects[media_colorbox][type] = "module"
-projects[media_colorbox][version] = "1.0"
-projects[media_colorbox][download][type] = "git"
-projects[media_colorbox][download][url] = "https://github.com/IISH/colorbox_file.git"
-projects[media_colorbox][download][branch] = "master"
-projects[media_colorbox][subdir] = "contrib"
+;projects[media_colorbox][type] = "module"
+;projects[media_colorbox][version] = "1.0"
+;projects[media_colorbox][download][type] = "git"
+;projects[media_colorbox][download][url] = "https://github.com/IISH/colorbox_file.git"
+;projects[media_colorbox][download][branch] = "master"
+;projects[media_colorbox][subdir] = "contrib"
 
 ; Custom build iish_blocks.
+projects[iish_blocks][version] = "1.0"
+projects[iish_blocks][type] = "module"
+projects[iish_blocks][download][type] = "git"
+projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][branch] = "master"
+projects[iish_blocks][subdir] = "custom"
+
 ; Custom build iish_images.
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
@@ -159,6 +166,9 @@ projects[mail_debugger][version] = "3.1"
 projects[mail_logger][subdir] = "contrib"
 projects[mail_logger][version] = "1.x-dev"
 
+projects[media_colorbox][subdir] = "contrib"
+projects[media_colorbox][version] = "1.0-rc4"
+
 projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
 
@@ -214,7 +224,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.14"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.14"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
