@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.50"
+projects[drupal][version] = "7.51"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -143,7 +143,7 @@ projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 
 projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "1.0-alpha1"
+projects[jw_player][version] = "2.0-beta2"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
