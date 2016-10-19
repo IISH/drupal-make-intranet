@@ -33,17 +33,6 @@ libraries[jquery.blockui][download][branch] = "master"
 libraries[jquery.blockui][directory_name] = "jquery.blockui"
 
 ; Third party libraries, stored in a local git repository.
-;libraries[plupload][type] = libraries
-;libraries[plupload][download][type] = "git"
-;libraries[plupload][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:plupload.git"
-;libraries[plupload][download][branch] = "master"
-;libraries[plupload][directory_name] = "plupload"
-
-;libraries[ckeditor][type] = libraries
-;libraries[ckeditor][download][type] = "git"
-;libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-;libraries[ckeditor][download][branch] = "full/4.5.x"
-;libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
@@ -59,8 +48,6 @@ libraries[jwplayer][directory_name] = "jwplayer"
 
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
-;libraries[colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox.git"
-;libraries[colorbox][download][branch] = "master"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
 libraries[colorbox][download][branch] = "1.x"
 libraries[colorbox][directory_name] = "colorbox"
@@ -76,7 +63,6 @@ projects[iisg][download][branch] = "master"
 projects[media_colorbox][type] = "module"
 projects[media_colorbox][version] = "1.0"
 projects[media_colorbox][download][type] = "git"
-; projects[media_colorbox][download][url] = "git@atlassian-bamboo-be0.socialhistoryservices.org:colorbox_file.git"
 projects[media_colorbox][download][url] = "https://github.com/IISH/colorbox_file.git"
 projects[media_colorbox][download][branch] = "master"
 projects[media_colorbox][subdir] = "contrib"
