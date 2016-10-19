@@ -197,7 +197,7 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
 projects[shoutbox][subdir] = "contrib"
-projects[shoutbox][version] = "1.0-beta1"
+projects[shoutbox][version] = "1.1"
 
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.4"
