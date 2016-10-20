@@ -8,7 +8,7 @@ projects[drupal][version] = "7.51"
 projects[iishagenda][version] = "1.0"
 projects[iishagenda][type] = "module"
 projects[iishagenda][download][type] = "git"
-projects[iishagenda][download][url] = "https://github.com/IISH/drupal-module-activiteitenagenda.git"
+projects[iishagenda][download][url] = "git@github.com:IISH/drupal-module-activiteitenagenda.git"
 projects[iishagenda][download][branch] = "master"
 projects[iishagenda][subdir] = "custom"
 
@@ -21,27 +21,27 @@ libraries[colorpicker][destination] = "libraries"
 ; get html_encoder library (used by filedepot)
 libraries[html_encoder][type] = libraries
 libraries[html_encoder][download][type] = "git"
-libraries[html_encoder][download][url] = "https://github.com/IISH/drupal-library-htmlencoder.git"
+libraries[html_encoder][download][url] = "git@github.com:IISH/drupal-library-htmlencoder.git"
 libraries[html_encoder][download][branch] = "master"
 libraries[html_encoder][directory_name] = "html_encoder"
 
 ; get jquery.blockui.js library (used by filedepot)
 libraries[jquery.blockui][type] = libraries
 libraries[jquery.blockui][download][type] = "git"
-libraries[jquery.blockui][download][url] = "https://github.com/IISH/drupal-library-jqueryblockui.git"
+libraries[jquery.blockui][download][url] = "git@github.com:IISH/drupal-library-jqueryblockui.git"
 libraries[jquery.blockui][download][branch] = "master"
 libraries[jquery.blockui][directory_name] = "jquery.blockui"
 
 ; Third party libraries, stored in a local git repository.
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/iish/drupal-library-ckeditor4.git"
+libraries[ckeditor][download][url] = "git@github.com:IISH/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 
 libraries[jwplayer][type] = libraries
 libraries[jwplayer][download][type] = "git"
-libraries[jwplayer][download][url] = "https://github.com/IISH/drupal-library-jwplayer.git"
+libraries[jwplayer][download][url] = "git@github.com:IISH/drupal-library-jwplayer.git"
 libraries[jwplayer][download][branch] = "master"
 libraries[jwplayer][directory_name] = "jwplayer"
 
@@ -56,14 +56,14 @@ libraries[colorbox][directory_name] = "colorbox"
 projects[iisg][version] = "1.0"
 projects[iisg][type] = "theme"
 projects[iisg][download][type] = "git"
-projects[iisg][download][url] = "https://github.com/IISH/drupal-theme-iisg.git"
+projects[iisg][download][url] = "git@github.com:IISH/drupal-theme-iisg.git"
 projects[iisg][download][branch] = "master"
 
 ; Custom modules
 ;projects[media_colorbox][type] = "module"
 ;projects[media_colorbox][version] = "1.0"
 ;projects[media_colorbox][download][type] = "git"
-;projects[media_colorbox][download][url] = "https://github.com/IISH/colorbox_file.git"
+;projects[media_colorbox][download][url] = "git@github.com:IISH/colorbox_file.git"
 ;projects[media_colorbox][download][branch] = "master"
 ;projects[media_colorbox][subdir] = "contrib"
 
@@ -71,7 +71,7 @@ projects[iisg][download][branch] = "master"
 projects[iish_blocks][version] = "1.0"
 projects[iish_blocks][type] = "module"
 projects[iish_blocks][download][type] = "git"
-projects[iish_blocks][download][url] = "https://github.com/IISH/drupal-module-blocks.git"
+projects[iish_blocks][download][url] = "git@github.com:IISH/drupal-module-blocks.git"
 projects[iish_blocks][download][branch] = "master"
 projects[iish_blocks][subdir] = "custom"
 
@@ -79,7 +79,7 @@ projects[iish_blocks][subdir] = "custom"
 projects[iish_images][version] = "1.0"
 projects[iish_images][type] = "module"
 projects[iish_images][download][type] = "git"
-projects[iish_images][download][url] = "https://github.com/IISH/drupal-module-images.git"
+projects[iish_images][download][url] = "git@github.com:IISH/drupal-module-images.git"
 projects[iish_images][download][branch] = "master"
 projects[iish_images][subdir] = "custom"
 
@@ -87,7 +87,7 @@ projects[iish_images][subdir] = "custom"
 projects[iish_language][version] = "1.0"
 projects[iish_language][type] = "module"
 projects[iish_language][download][type] = "git"
-projects[iish_language][download][url] = "https://github.com/IISH/drupal-module-language.git"
+projects[iish_language][download][url] = "git@github.com:IISH/drupal-module-language.git"
 projects[iish_language][download][branch] = "master"
 projects[iish_language][subdir] = "custom"
 
@@ -123,7 +123,7 @@ projects[field_collection][version] = "1.0-beta8"
 projects[filedepot][version] = "1.0"
 projects[filedepot][type] = "module"
 projects[filedepot][download][type] = "git"
-projects[filedepot][download][url] = "https://github.com/IISH/filedepot.git"
+projects[filedepot][download][url] = "git@github.com:IISH/filedepot.git"
 projects[filedepot][download][branch] = "master"
 projects[filedepot][subdir] = "custom"
 
