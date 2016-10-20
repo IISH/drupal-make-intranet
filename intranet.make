@@ -183,6 +183,9 @@ projects[menu_block][version] = "2.7"
 projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 
+projects[module_missing_message_fixer][subdir] = "contrib"
+projects[module_missing_message_fixer][version] = "1.x-dev"
+
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.5"
 
