@@ -66,6 +66,11 @@ projects[iisg][download][branch] = "master"
 ;projects[media_colorbox][download][url] = "git@github.com:IISH/colorbox_file.git"
 ;projects[media_colorbox][download][branch] = "master"
 ;projects[media_colorbox][subdir] = "contrib"
+projects[colorbox_file][subdir] = "contrib"
+projects[colorbox_file][type] = "module"
+projects[colorbox_file][download][type] = "git"
+projects[colorbox_file][download][url] = "git@github.com:IISH/colorbox_file.git"
+projects[colorbox_file][download][branch] = "master"
 
 ; Custom build iish_blocks.
 projects[iish_blocks][version] = "1.0"
