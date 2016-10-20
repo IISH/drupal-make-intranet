@@ -225,6 +225,9 @@ projects[translation_helpers][version] = "1.0"
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 
+projects[unused_modules][subdir] = "contrib"
+projects[unused_modules][version] = "1.5"
+
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
 
