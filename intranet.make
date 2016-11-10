@@ -33,19 +33,20 @@ libraries[jquery.blockui][download][branch] = "master"
 libraries[jquery.blockui][directory_name] = "jquery.blockui"
 
 ; Third party libraries, stored in a local git repository.
+; ckeditor
 libraries[ckeditor][type] = libraries
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "git@github.com:IISH/drupal-library-ckeditor4.git"
 libraries[ckeditor][directory_name] = "ckeditor"
 
-
+; jwplayer
 libraries[jwplayer][type] = libraries
 libraries[jwplayer][download][type] = "git"
 libraries[jwplayer][download][url] = "git@github.com:IISH/drupal-library-jwplayer.git"
 libraries[jwplayer][download][branch] = "master"
 libraries[jwplayer][directory_name] = "jwplayer"
 
-
+; colorbox
 libraries[colorbox][type] = libraries
 libraries[colorbox][download][type] = "git"
 libraries[colorbox][download][url] = "git@github.com:jackmoore/colorbox.git"
@@ -60,12 +61,6 @@ projects[iisg][download][url] = "git@github.com:IISH/drupal-theme-iisg.git"
 projects[iisg][download][branch] = "master"
 
 ; Custom modules
-;projects[media_colorbox][type] = "module"
-;projects[media_colorbox][version] = "1.0"
-;projects[media_colorbox][download][type] = "git"
-;projects[media_colorbox][download][url] = "git@github.com:IISH/colorbox_file.git"
-;projects[media_colorbox][download][branch] = "master"
-;projects[media_colorbox][subdir] = "contrib"
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
 projects[colorbox_file][download][type] = "git"
@@ -100,6 +95,15 @@ projects[iish_language][subdir] = "custom"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
+projects[better_exposed_filters][subdir] = "contrib"
+projects[better_exposed_filters][version] = "3.2"
+
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "3.5"
+
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.6"
+
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
 
@@ -110,6 +114,9 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
 projects[date][patch][] = "https://www.drupal.org/files/issues/calendar_pager_broken-2375235-35.patch"
 
+projects[date_datepicker_inline][subdir] = "contrib"
+projects[date_datepicker_inline][version] = "1.0"
+
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
@@ -119,8 +126,23 @@ projects[email][version] = "1.3"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.7"
 
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.1"
+
 projects[extlink][subdir] = "contrib"
 projects[extlink][version] = "1.18"
+
+projects[features][subdir] = "contrib"
+projects[features][version] = "2.9"
+
+projects[field_collection_table][subdir] = "contrib"
+projects[field_collection_table][version] = "1.0-beta3"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.5"
+
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
@@ -131,9 +153,6 @@ projects[filedepot][download][type] = "git"
 projects[filedepot][download][url] = "git@github.com:IISH/filedepot.git"
 projects[filedepot][download][branch] = "master"
 projects[filedepot][subdir] = "custom"
-
-projects[media][subdir] = "contrib"
-projects[media][version] = "1.5"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.10"
@@ -147,6 +166,16 @@ projects[i18n][version] = "1.13"
 projects[i18nviews][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 
+projects[inline_entity_form][subdir] = "contrib"
+projects[inline_entity_form][version] = "1.6"
+
+projects[jquery_colorpicker][subdir] = "contrib"
+projects[jquery_colorpicker][version] = "1.2"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "3.0-alpha3"
+
+; onduidelijk of jw_player gebruikt wordt
 projects[jw_player][subdir] = "contrib"
 projects[jw_player][version] = "2.0-beta2"
 
@@ -170,6 +199,9 @@ projects[mail_debugger][version] = "3.1"
 
 projects[mail_logger][subdir] = "contrib"
 projects[mail_logger][version] = "1.x-dev"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.5"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
@@ -204,14 +236,20 @@ projects[r4032login][version] = "1.8"
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
+projects[references][subdir] = "contrib"
+projects[references][version] = "2.1"
+
+projects[replicate][subdir] = "contrib"
+projects[replicate][version] = "1.1"
+
 projects[shoutbox][subdir] = "contrib"
 projects[shoutbox][version] = "1.1"
 
-projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.4"
-
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.3"
+
+projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "1.4"
 
 projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
@@ -234,56 +272,14 @@ projects[variable][version] = "2.5"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.14"
 
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.3"
+
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.14"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
-
-projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "3.0-alpha3"
-
-projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.2"
-
-projects[calendar][subdir] = "contrib"
-projects[calendar][version] = "3.5"
-
-projects[context][subdir] = "contrib"
-projects[context][version] = "3.6"
-
-projects[date_datepicker_inline][subdir] = "contrib"
-projects[date_datepicker_inline][version] = "1.0"
-
-projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.1"
-
-projects[features][subdir] = "contrib"
-projects[features][version] = "2.9"
-
-projects[field_collection_table][subdir] = "contrib"
-projects[field_collection_table][version] = "1.0-beta3"
-
-projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.5"
-
-projects[field_permissions][subdir] = "contrib"
-projects[field_permissions][version] = "1.0-beta2"
-
-projects[inline_entity_form][subdir] = "contrib"
-projects[inline_entity_form][version] = "1.6"
-
-projects[jquery_colorpicker][subdir] = "contrib"
-projects[jquery_colorpicker][version] = "1.2"
-
-projects[references][subdir] = "contrib"
-projects[references][version] = "2.1"
-
-projects[replicate][subdir] = "contrib"
-projects[replicate][version] = "1.1"
-
-projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.3"
 
 ; Drupal Themes
 projects[omega][version] = "3.1"
