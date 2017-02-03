@@ -96,7 +96,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.2"
+projects[better_exposed_filters][version] = "3.4"
 
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.5"
