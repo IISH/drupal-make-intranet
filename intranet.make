@@ -60,6 +60,13 @@ projects[iisg][download][type] = "git"
 projects[iisg][download][url] = "git@github.com:IISH/drupal-theme-iisg.git"
 projects[iisg][download][branch] = "master"
 
+; Custom themes
+projects[danland][version] = "1.0"
+projects[danland][type] = "theme"
+projects[danland][download][type] = "get"
+projects[danland][download][url] = "https://ftp.drupal.org/files/projects/danland-7.x-1.0.zip"
+projects[danland][download][branch] = "master"
+
 ; Custom modules
 projects[colorbox_file][subdir] = "contrib"
 projects[colorbox_file][type] = "module"
