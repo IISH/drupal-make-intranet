@@ -190,7 +190,7 @@ projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
 
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "2.0-beta11"
+projects[ldap][version] = "2.0-beta12"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
