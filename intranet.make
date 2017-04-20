@@ -208,7 +208,7 @@ projects[mail_logger][subdir] = "contrib"
 projects[mail_logger][version] = "1.x-dev"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.5"
+projects[media][version] = "2.0"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
@@ -244,7 +244,7 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
 
 projects[references][subdir] = "contrib"
-projects[references][version] = "2.1"
+projects[references][version] = "2.2"
 
 projects[replicate][subdir] = "contrib"
 projects[replicate][version] = "1.1"
