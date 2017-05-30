@@ -154,6 +154,9 @@ projects[field_permissions][version] = "1.0-beta2"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0"
+
 projects[filedepot][version] = "1.0"
 projects[filedepot][type] = "module"
 projects[filedepot][download][type] = "git"
@@ -207,8 +210,9 @@ projects[mail_debugger][version] = "3.1"
 projects[mail_logger][subdir] = "contrib"
 projects[mail_logger][version] = "1.x-dev"
 
+; media niet updaten naar versie 2 totdat uitgezocht is hoe we de nieuwe versie moeten instellen
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0"
+projects[media][version] = "1.6"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
