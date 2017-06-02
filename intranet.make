@@ -212,7 +212,8 @@ projects[mail_logger][version] = "1.x-dev"
 
 ; media niet updaten naar versie 2 totdat uitgezocht is hoe we de nieuwe versie moeten instellen
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.6"
+;projects[media][version] = "1.6"
+projects[media][version] = "2.4"
 
 projects[media_colorbox][subdir] = "contrib"
 projects[media_colorbox][version] = "1.0-rc4"
