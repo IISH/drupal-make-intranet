@@ -154,8 +154,8 @@ projects[field_permissions][version] = "1.0-beta2"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
-projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0"
+;projects[file_entity][subdir] = "contrib"
+;projects[file_entity][version] = "2.0"
 
 projects[filedepot][version] = "1.0"
 projects[filedepot][type] = "module"
