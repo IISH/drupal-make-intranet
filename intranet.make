@@ -185,9 +185,8 @@ projects[jquery_colorpicker][version] = "1.2"
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "3.0-alpha3"
 
-; onduidelijk of jw_player gebruikt wordt
-projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "2.0-beta2"
+;projects[jw_player][subdir] = "contrib"
+;projects[jw_player][version] = "2.0-beta2"
 
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][version] = "2.0"
@@ -204,19 +203,20 @@ projects[link][version] = "1.3"
 projects[mail_edit][subdir] = "contrib"
 projects[mail_edit][version] = "1.1"
 
-projects[mail_debugger][subdir] = "contrib"
-projects[mail_debugger][version] = "3.1"
+;projects[mail_debugger][subdir] = "contrib"
+;projects[mail_debugger][version] = "3.1"
 
-projects[mail_logger][subdir] = "contrib"
-projects[mail_logger][version] = "1.x-dev"
+;projects[mail_logger][subdir] = "contrib"
+;projects[mail_logger][version] = "1.x-dev"
 
 ; media niet updaten naar versie 2 totdat uitgezocht is hoe we de nieuwe versie moeten instellen
 projects[media][subdir] = "contrib"
 ;projects[media][version] = "1.6"
-projects[media][version] = "2.4"
+;projects[media][version] = "2.4"
+projects[media][version] = "2.1"
 
-projects[media_colorbox][subdir] = "contrib"
-projects[media_colorbox][version] = "1.0-rc4"
+;projects[media_colorbox][subdir] = "contrib"
+;projects[media_colorbox][version] = "1.0-rc4"
 
 projects[mediafront][subdir] = "contrib"
 projects[mediafront][version] = "2.2"
@@ -260,8 +260,8 @@ projects[shoutbox][version] = "1.1"
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.3"
 
-projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.4"
+;projects[smtp][subdir] = "contrib"
+;projects[smtp][version] = "1.4"
 
 projects[subscriptions][subdir] = "contrib"
 projects[subscriptions][version] = "1.1"
@@ -276,7 +276,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 
 projects[unused_modules][subdir] = "contrib"
-projects[unused_modules][version] = "1.5"
+projects[unused_modules][version] = "1.6"
 
 projects[variable][subdir] = "contrib"
 projects[variable][version] = "2.5"
