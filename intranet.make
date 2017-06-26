@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.54"
+projects[drupal][version] = "7.56"
 
 ; Custom agenda module.
 projects[iishagenda][version] = "1.0"
@@ -154,7 +154,8 @@ projects[field_permissions][version] = "1.0-beta2"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta8"
 
-;projects[file_entity][subdir] = "contrib"
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
+projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.1"
 
 projects[filedepot][version] = "1.0"
@@ -209,10 +210,8 @@ projects[mail_edit][version] = "1.1"
 ;projects[mail_logger][subdir] = "contrib"
 ;projects[mail_logger][version] = "1.x-dev"
 
-; media niet updaten naar versie 2 totdat uitgezocht is hoe we de nieuwe versie moeten instellen
+; als media en file_entity in kombinatie worden gebruikt dan moeten dezelfde versie "NUMMERs" gebruikt worden
 projects[media][subdir] = "contrib"
-;projects[media][version] = "1.6"
-;projects[media][version] = "2.4"
 projects[media][version] = "2.1"
 
 ;projects[media_colorbox][subdir] = "contrib"
